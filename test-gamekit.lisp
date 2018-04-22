@@ -7,7 +7,7 @@
 (defvar *canvas-width* 800)
 (defvar *canvas-height* 600)
 
-(gamekit:defgame hello-gamekit () ()
+(gamekit:defgame test-gamekit () ()
   (:viewport-width *canvas-width*)
   (:viewport-height *canvas-height*)
   (:viewport-title "Testing Gamekit!"))
