@@ -15,10 +15,6 @@ env:
   - GAMEKIT_TARGET_PACKAGE: $GAMEKIT_SYSTEM_NAME-x86-64-$TRAVIS_OS_NAME-$TRAVIS_BRANCH.zip
   - GAMEKIT_BUILD_DIR: /tmp/$(GAMEKIT_SYSTEM_NAME)
 
-branches:
-  only:
-    - "/^v\\d+(\\.\\d+)+$/"
-
 os:
   - linux
   - osx
