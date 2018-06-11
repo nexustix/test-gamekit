@@ -22,11 +22,6 @@ os:
 install:
   - curl -L http://bodge.borodust.org/files/install.sh | sh
 
-cache:
-  directories:
-  - "$HOME/opt/sbcl/"
-  - "$HOME/.config/common-lisp/"
-
 script:
   - >
     lisp $HOME/bodge/scripts/build-gamekit-system.lisp
